@@ -1,166 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mark Precious Agyoseh (Benwu) | Networking & IT Administration</title>
-<meta name="description" content="Computer Science graduate focused on networking, cybersecurity and IT administration. Based in Abuja, Nigeria.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#eef2f4;--surface:#fff;--ink:#14202b;--muted:#4d5d6b;--line:#c9d4db;--accent:#0b6e99;--accent-ink:#fff;--signal:#d98a00}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1820;--surface:#16222d;--ink:#e8eef2;--muted:#9fb0bd;--line:#2a3a47;--accent:#4cb4e0;--accent-ink:#0f1820;--signal:#f0b44a}}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "IBM Plex Sans",system-ui,sans-serif}
-h1,h2,h3{font-family:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;line-height:1.15;margin:0}
-a{color:var(--accent)}
-a:focus-visible,button:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
-.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
-nav{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;padding:1.1rem 0;font-size:.95rem}
-nav a{color:var(--muted);text-decoration:none}
-nav a:hover{color:var(--accent)}
-.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center;padding:3rem 0 4rem}
-.hero h1{font-size:clamp(2.4rem,6vw,4rem);font-weight:700;letter-spacing:-.02em}
-.hero p.lead{font-size:1.2rem;color:var(--muted);max-width:34rem;margin:1.2rem 0 1.8rem}
-.btns{display:flex;flex-wrap:wrap;gap:.75rem}
-.btn{display:inline-block;padding:.7rem 1.25rem;border-radius:.4rem;font-weight:500;text-decoration:none;border:2px solid var(--accent)}
-.btn.primary{background:var(--accent);color:var(--accent-ink)}
-.btn.ghost{color:var(--accent)}
-.topo{width:100%;height:auto}
-.topo .link{stroke:var(--line);stroke-width:3;fill:none}
-.topo .live{stroke:var(--signal);stroke-width:3;fill:none;stroke-dasharray:6 8;animation:flow 1.6s linear infinite}
-.topo .node{fill:var(--surface);stroke:var(--accent);stroke-width:3}
-.topo text{fill:var(--ink);font:500 14px "IBM Plex Sans",sans-serif}
-@keyframes flow{to{stroke-dashoffset:-28}}
-@media (prefers-reduced-motion:reduce){.topo .live{animation:none}html{scroll-behavior:auto}}
-section{padding:3rem 0;border-top:1px solid var(--line)}
-section>.wrap>h2{font-size:1.8rem;margin-bottom:1.5rem}
-.about{max-width:42rem}
-.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem}
-.skills h3,.proj h3,.job h3{font-size:1.15rem;margin-bottom:.4rem}
-.skills ul{margin:0;padding-left:1.1rem;color:var(--muted)}
-.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:1.25rem}
-.proj{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:.4rem;padding:1.25rem}
-.proj p{margin:.3rem 0 .8rem;color:var(--muted)}
-.proj .tags{font-size:.9rem;color:var(--ink);margin-bottom:.8rem}
-.proj a{font-weight:500}
-.job{display:grid;grid-template-columns:11rem 1fr;gap:.5rem 1.5rem;padding:1rem 0;border-bottom:1px solid var(--line)}
-.job:last-child{border-bottom:0}
-.job .when{color:var(--muted);font-size:.95rem}
-.job p{margin:.2rem 0 0;color:var(--muted)}
-.contact a{display:block;font-size:1.15rem;margin:.3rem 0}
-footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
-@media (max-width:42rem){.hero{grid-template-columns:1fr;padding-top:1.5rem}.job{grid-template-columns:1fr}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional portfolio of Your Name — IT, networking, cybersecurity, blockchain, and administrative support projects.">
+  <title>Your Name | IT & Technology Portfolio</title>
+  <style>
+    :root{--bg:#071426;--panel:#0e2038;--panel2:#122945;--text:#edf4ff;--muted:#afc0d5;--blue:#55a7ff;--cyan:#66e0dc;--line:#29435f;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:linear-gradient(180deg,#071426,#0a1c31 55%,#071426);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%}.wrap{width:min(var(--max),92%);margin:auto}header{position:sticky;top:0;z-index:5;background:rgba(7,20,38,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.brand{font-weight:800;letter-spacing:.5px;color:var(--text)}.brand span,.accent{color:var(--cyan)}.navlinks{display:flex;gap:18px;flex-wrap:wrap;font-size:.94rem}.navlinks a{color:#d6e5f7}.hero{padding:72px 0 58px;display:grid;grid-template-columns:1.4fr .75fr;align-items:center;gap:40px}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.78rem;font-weight:800;color:var(--cyan)}h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.08;letter-spacing:-1.5px;margin:14px 0 18px}h1 span{color:var(--blue)}h2{font-size:clamp(1.7rem,3.5vw,2.45rem);line-height:1.2;margin:7px 0 12px}h3{margin:8px 0;font-size:1.18rem}.lead{font-size:1.12rem;max-width:680px;color:var(--muted)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-block;padding:11px 17px;border:1px solid var(--blue);border-radius:9px;font-weight:700}.btn.primary{background:var(--blue);color:#061426}.btn.secondary{border-color:var(--line);color:var(--text)}.profile-frame{max-width:310px;margin:auto;padding:10px;border:1px solid #31577a;border-radius:22px;background:linear-gradient(145deg,#14385e,#0d1c30);box-shadow:0 20px 60px #0004}.profile-frame img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:15px;background:#193553}.photo-note{text-align:center;font-size:.8rem;color:var(--muted);margin:9px 0 0}.section{padding:48px 0}.section-head{margin-bottom:24px;max-width:760px}.sub{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card,.panel{background:var(--panel);border:1px solid var(--line);border-radius:15px;overflow:hidden}.card-visual{min-height:145px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#173b60,#0b1a2e);border-bottom:1px solid var(--line);padding:22px}.card-visual svg{width:100%;max-height:120px}.card-body{padding:20px}.tag{display:inline-block;border:1px solid #315778;color:var(--cyan);border-radius:30px;padding:3px 9px;font-size:.75rem;margin:0 5px 5px 0}.card p,.panel p,.panel li{color:var(--muted)}.card-links{display:flex;flex-wrap:wrap;gap:13px;margin-top:15px;font-weight:700;font-size:.9rem}.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.skill{padding:13px 10px;text-align:center;border:1px solid var(--line);background:var(--panel);border-radius:10px;color:#d9e9fb}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{padding:24px}.panel ul{padding-left:20px}.timeline-item{border-left:2px solid #315778;padding:0 0 8px 17px;margin:18px 0}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.contact-item{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}.small{font-size:.88rem;color:var(--muted)}footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.9rem}.notice{padding:13px 16px;border:1px solid #315778;background:#0c2037;border-radius:10px;color:var(--muted);font-size:.92rem}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:48px}.profile-frame{max-width:240px;grid-row:1}.grid{grid-template-columns:1fr 1fr}.skills{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}}
+    @media(max-width:540px){.grid{grid-template-columns:1fr}.navlinks{gap:11px;font-size:.88rem}.hero{gap:24px}.section{padding:35px 0}}
+  </style>
 </head>
 <body>
-<div class="wrap">
-<nav aria-label="Main">
-<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
-</nav>
-
-<header class="hero">
-<div>
-<h1>Mark Precious Agyoseh</h1>
-<p class="lead">Computer Science graduate focused on networking, cybersecurity and IT administration. I build and document lab networks, and I'm based in Abuja, Nigeria.</p>
-<div class="btns">
-<a class="btn primary" href="#projects">See my projects</a>
-<a class="btn ghost" href="#contact">Get in touch</a>
-</div>
-</div>
-<svg class="topo" viewBox="0 0 400 300" role="img" aria-label="Diagram of a headquarters router linked to a branch router, each with a switch and PCs">
-<path class="link" d="M95 150H305"/>
-<path class="live" d="M95 150H305"/>
-<path class="link" d="M60 190V245M60 190H20V245M60 190H100V245"/>
-<path class="link" d="M340 190V245M340 190H300V245M340 190H380V245"/>
-<path class="link" d="M60 150V110M340 150V110"/>
-<circle class="node" cx="60" cy="150" r="22"/>
-<circle class="node" cx="340" cy="150" r="22"/>
-<rect class="node" x="38" y="85" width="44" height="26" rx="4"/>
-<rect class="node" x="318" y="85" width="44" height="26" rx="4"/>
-<rect class="node" x="2" y="245" width="36" height="26" rx="4"/>
-<rect class="node" x="82" y="245" width="36" height="26" rx="4"/>
-<rect class="node" x="282" y="245" width="36" height="26" rx="4"/>
-<rect class="node" x="362" y="245" width="36" height="26" rx="4"/>
-<text x="60" y="76" text-anchor="middle">HQ</text>
-<text x="340" y="76" text-anchor="middle">Branch</text>
-<text x="200" y="138" text-anchor="middle">WAN link</text>
-</svg>
-</header>
-</div>
-
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home">YOUR NAME<span> / PORTFOLIO</span></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
+</nav></div></header>
 <main>
-<section id="about"><div class="wrap">
-<h2>About</h2>
-<div class="about">
-<p>I graduated in Computer Science from Federal University Wukari in 2025 and am currently serving my NYSC year. My interests are networking, cybersecurity and IT administration, and I learn by building: Cisco Packet Tracer networks, a Windows Server Active Directory home lab, and security lab exercises.</p>
-<p>Before and during university I worked as a computer technician and then a computer instructor, so I'm comfortable both fixing systems and explaining how they work. I'm looking for roles in IT support, network administration and related fields.</p>
-</div>
-</div></section>
+  <section class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">IT · Technology · Digital Support</div>
+      <h1>Hello, I'm <span>Your Name.</span></h1>
+      <p class="lead">An IT and technology professional building practical skills across computer networking, cybersecurity, blockchain technology, and digital administration. I enjoy solving problems, learning new tools, and documenting work clearly.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Explore my work ↓</a><a class="btn secondary" href="assets/cv.pdf" target="_blank" rel="noopener">View / Download CV</a></div>
+      <p class="small">Replace the sample text and links with accurate details before publishing.</p>
+    </div>
+    <div class="profile-frame"><img src="assets/profile.jpg" alt="Profile photo of Your Name"><p class="photo-note">Replace <code>assets/profile.jpg</code> with your professional photo.</p></div>
+  </section>
 
-<section id="skills"><div class="wrap">
-<h2>Skills</h2>
-<div class="skills">
-<div><h3>Networking</h3><ul><li>Cisco Packet Tracer</li><li>Multi-site network design (HQ and branch)</li><li>CCNA-level concepts</li></ul></div>
-<div><h3>IT administration</h3><ul><li>Windows Server and Active Directory</li><li>Help desk and troubleshooting</li><li>Hardware and software support</li></ul></div>
-<div><h3>Cybersecurity</h3><ul><li>Hands-on lab work</li><li>Security tooling practice</li></ul></div>
-<div><h3>Documentation and teaching</h3><ul><li>Technical write-ups</li><li>Curriculum and class notes</li><li>Computer instruction</li></ul></div>
-</div>
-</div></section>
+  <section class="section wrap" id="about"><div class="section-head"><div class="eyebrow">A little about me</div><h2>Curious, practical, and committed to learning.</h2><p class="sub">Use this section to introduce yourself in a few sentences. Mention your education, strongest skills, and the kinds of opportunities you are pursuing.</p></div>
+    <div class="about-grid"><div class="panel"><h3>Professional profile</h3><p>I am a graduate of <strong>[Your Degree]</strong> from <strong>[Your Institution]</strong>. My interests include IT support, networking, cybersecurity, technology research, and organized digital operations. Through practical projects, I aim to build reliable technical and communication skills.</p><p><strong>Currently seeking:</strong> [IT support / networking / graduate opportunities / remote administrative roles].</p></div><div class="panel"><h3>What I bring</h3><ul><li>Curiosity and a willingness to learn</li><li>Structured troubleshooting and documentation</li><li>Attention to detail and organization</li><li>Clear written communication</li><li>Practical project-based learning</li></ul></div></div>
+  </section>
 
-<section id="projects"><div class="wrap">
-<h2>Projects</h2>
-<div class="projects">
-<article class="proj">
-<h3>HQ and Branch network</h3>
-<p>A multi-site Cisco Packet Tracer network connecting a headquarters and a branch office.</p>
-<div class="tags">Packet Tracer, routing, switching</div>
-<!-- Replace the link below with your GitHub repository -->
-<a href="https://github.com/YOUR-USERNAME/networking-labs">View on GitHub</a>
-</article>
-<article class="proj">
-<h3>Active Directory home lab</h3>
-<p>A Windows Server Active Directory lab built to practise help desk and system administration tasks.</p>
-<div class="tags">Windows Server, Active Directory</div>
-<a href="https://github.com/YOUR-USERNAME/active-directory-homelab">View on GitHub</a>
-</article>
-<article class="proj">
-<h3>Cybersecurity lab work</h3>
-<p>Practical exercises with security tools and networking concepts, documented as I learn.</p>
-<div class="tags">Security tooling, networking</div>
-<a href="https://github.com/YOUR-USERNAME/cybersecurity-labs">View on GitHub</a>
-</article>
-<article class="proj">
-<h3>Digital Technologies class notes</h3>
-<p>Curriculum-aligned notes for Nigerian Junior Secondary School Digital Technologies.</p>
-<div class="tags">Education content, curriculum</div>
-<a href="#contact">Ask for a sample</a>
-</article>
-</div>
-</div></section>
+  <section class="section wrap" id="projects"><div class="section-head"><div class="eyebrow">Selected work</div><h2>Projects & Practical Experience</h2><p class="sub">Each card can link to downloadable files, screenshots, reports, or a repository. Only publish work you have actually completed, and describe your contribution honestly.</p></div>
+    <div class="grid">
+      <article class="card"><div class="card-visual"><svg viewBox="0 0 300 120" role="img" aria-label="Network diagram illustration"><g stroke="#55a7ff" stroke-width="2.5" fill="none"><path d="M150 33V54M150 54L72 80M150 54L228 80"/></g><rect x="112" y="7" width="76" height="28" rx="5" fill="#17436a" stroke="#66e0dc"/><rect x="28" y="78" width="88" height="27" rx="5" fill="#14385e" stroke="#55a7ff"/><rect x="184" y="78" width="88" height="27" rx="5" fill="#14385e" stroke="#55a7ff"/><g fill="#edf4ff" font-size="10" text-anchor="middle"><text x="150" y="25">ROUTER</text><text x="72" y="95">DEPARTMENT A</text><text x="228" y="95">DEPARTMENT B</text></g></svg></div><div class="card-body"><span class="tag">Networking</span><span class="tag">Cisco Packet Tracer</span><h3>Network Design & Configuration</h3><p>Document a lab or campus network, including topology, IP addressing, device configuration, and connectivity verification.</p><div class="card-links"><a href="projects/networking/README.md">Project details ↗</a><a href="projects/networking/network-lab.pkt">Download .pkt ↗</a><a href="projects/networking/report.pdf">PDF report ↗</a></div></div></article>
+      <article class="card"><div class="card-visual"><svg viewBox="0 0 300 120" role="img" aria-label="Cybersecurity and blockchain illustration"><g fill="none" stroke="#66e0dc" stroke-width="2.5"><path d="M150 15L183 28V54Q180 78 150 95Q120 78 117 54V28Z"/><path d="M136 53L146 63L166 42"/><path d="M85 42H108M192 42H215M95 77H119M181 77H205"/></g><g fill="#55a7ff"><circle cx="77" cy="42" r="7"/><circle cx="223" cy="42" r="7"/><circle cx="87" cy="77" r="7"/><circle cx="213" cy="77" r="7"/></g></svg></div><div class="card-body"><span class="tag">Cybersecurity</span><span class="tag">Blockchain</span><h3>Security & Blockchain Research</h3><p>Present an academic or practical project explaining the problem, design, tools, testing approach, findings, and limitations.</p><div class="card-links"><a href="projects/cybersecurity-blockchain/README.md">Project details ↗</a><a href="projects/cybersecurity-blockchain/report.pdf">PDF report ↗</a><a href="projects/cybersecurity-blockchain/source.zip">Project files ↗</a></div></div></article>
+      <article class="card"><div class="card-visual"><svg viewBox="0 0 300 120" role="img" aria-label="Administrative productivity illustration"><rect x="78" y="14" width="144" height="94" rx="8" fill="#14385e" stroke="#55a7ff" stroke-width="2"/><path d="M101 39H197M101 57H197M101 75H174" stroke="#66e0dc" stroke-width="4" stroke-linecap="round"/><circle cx="94" cy="39" r="3" fill="#edf4ff"/><circle cx="94" cy="57" r="3" fill="#edf4ff"/><circle cx="94" cy="75" r="3" fill="#edf4ff"/></svg></div><div class="card-body"><span class="tag">Administration</span><span class="tag">Virtual Assistance</span><h3>Digital Administration & Support</h3><p>Show suitable examples of document formatting, data organization, task tracking, research, scheduling, or workflow improvement.</p><div class="card-links"><a href="projects/administrative-virtual-assistant/README.md">Project details ↗</a><a href="projects/administrative-virtual-assistant/sample.pdf">Sample document ↗</a></div></div></article>
+    </div>
+    <p class="notice" style="margin-top:18px">The file links are placeholders until you upload files using the same names. Remove links for files you do not have yet, or update the HTML to match your filenames.</p>
+  </section>
 
-<section id="experience"><div class="wrap">
-<h2>Experience and education</h2>
-<div class="job"><div class="when">Jan 2025 to Jan 2026</div><div><h3>Computer Instructor, Computer Village, Wukari</h3></div></div>
-<div class="job"><div class="when">Oct 2023 to Apr 2024</div><div><h3>Intern, African Center for ICT Innovation and Training (ACIT)</h3><p>American University of Nigeria, Yola.</p></div></div>
-<div class="job"><div class="when">Sept 2019 to June 2024</div><div><h3>Computer Technician, Computer Village, Wukari</h3></div></div>
-<div class="job"><div class="when">2021 to 2025</div><div><h3>B.Sc. Computer Science, Federal University Wukari</h3></div></div>
-<div class="job"><div class="when">Ongoing</div><div><h3>National Youth Service Corps (NYSC)</h3></div></div>
-</div></section>
+  <section class="section wrap" id="skills"><div class="section-head"><div class="eyebrow">Capabilities</div><h2>Skills & Tools</h2><p class="sub">Edit this list to reflect your real ability level. You can label skills as beginner, intermediate, or proficient if useful.</p></div>
+    <div class="skills"><div class="skill">Cisco Packet Tracer</div><div class="skill">IPv4 & Subnetting</div><div class="skill">Network Troubleshooting</div><div class="skill">Cybersecurity Fundamentals</div><div class="skill">Blockchain Concepts</div><div class="skill">Microsoft Office</div><div class="skill">Document Formatting</div><div class="skill">Data Entry & Organization</div><div class="skill">Online Research</div><div class="skill">Written Communication</div><div class="skill">Task Coordination</div><div class="skill">Technical Documentation</div></div>
+  </section>
 
-<section id="contact"><div class="wrap contact">
-<h2>Contact</h2>
-<p>Open to IT support, network administration and related roles.</p>
-<a href="mailto:preciousagyosehmark@gmail.com">preciousagyosehmark@gmail.com</a>
-<a href="tel:+2347045271780">07045271780</a>
-<!-- Add your LinkedIn and GitHub links here -->
-<a href="https://github.com/YOUR-USERNAME">GitHub</a>
-<a href="https://www.linkedin.com/in/YOUR-PROFILE">LinkedIn</a>
-</div></section>
+  <section class="section wrap" id="experience"><div class="section-head"><div class="eyebrow">Background</div><h2>Education, Training & Experience</h2><p class="sub">Use truthful dates and titles. If you have limited formal work experience, include relevant academic projects, volunteering, internships, or independent practice.</p></div>
+    <div class="panel"><div class="timeline-item"><h3>[Degree / Qualification] — [Institution]</h3><p>[Start year – graduation year] · [Relevant coursework, project, or achievement]</p></div><div class="timeline-item"><h3>[Role, Internship, or Volunteer Experience]</h3><p>[Organization] · [Dates] · [Two or three accurate responsibilities or outcomes]</p></div><div class="timeline-item"><h3>[Course or Certification]</h3><p>[Provider] · [Year] · Add only completed credentials; list ongoing training as “In progress.”</p></div></div>
+  </section>
+
+  <section class="section wrap" id="contact"><div class="section-head"><div class="eyebrow">Get in touch</div><h2>Let's connect.</h2><p class="sub">For opportunities, collaboration, or questions about my projects, contact me through the links below.</p></div>
+    <div class="contact-grid"><div class="contact-item"><strong>Email</strong><p><a href="mailto:your.email@example.com">your.email@example.com</a></p></div><div class="contact-item"><strong>GitHub</strong><p><a href="https://github.com/YOUR_USERNAME">github.com/YOUR_USERNAME</a></p></div><div class="contact-item"><strong>LinkedIn</strong><p><a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">My LinkedIn profile</a></p></div></div>
+    <div class="actions"><a class="btn primary" href="assets/cv.pdf" target="_blank" rel="noopener">View / Download CV</a></div>
+  </section>
 </main>
-
-<footer><div class="wrap">&copy; 2026 Mark Precious Agyoseh. Based in Abuja, Nigeria.</div></footer>
+<footer><div class="wrap">© 2026 Your Name · IT & Technology Portfolio · Built with GitHub Pages</div></footer>
 </body>
 </html>
