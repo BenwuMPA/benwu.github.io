@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mark Precious Agyoseh (Benwu) | Networking & IT Administration</title>
+<meta name="description" content="Computer Science graduate focused on networking, cybersecurity and IT administration. Based in Abuja, Nigeria.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f4;--surface:#fff;--ink:#14202b;--muted:#4d5d6b;--line:#c9d4db;--accent:#0b6e99;--accent-ink:#fff;--signal:#d98a00}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1820;--surface:#16222d;--ink:#e8eef2;--muted:#9fb0bd;--line:#2a3a47;--accent:#4cb4e0;--accent-ink:#0f1820;--signal:#f0b44a}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+nav{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;padding:1.1rem 0;font-size:.95rem}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center;padding:3rem 0 4rem}
+.hero h1{font-size:clamp(2.4rem,6vw,4rem);font-weight:700;letter-spacing:-.02em}
+.hero p.lead{font-size:1.2rem;color:var(--muted);max-width:34rem;margin:1.2rem 0 1.8rem}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.7rem 1.25rem;border-radius:.4rem;font-weight:500;text-decoration:none;border:2px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+.topo{width:100%;height:auto}
+.topo .link{stroke:var(--line);stroke-width:3;fill:none}
+.topo .live{stroke:var(--signal);stroke-width:3;fill:none;stroke-dasharray:6 8;animation:flow 1.6s linear infinite}
+.topo .node{fill:var(--surface);stroke:var(--accent);stroke-width:3}
+.topo text{fill:var(--ink);font:500 14px "IBM Plex Sans",sans-serif}
+@keyframes flow{to{stroke-dashoffset:-28}}
+@media (prefers-reduced-motion:reduce){.topo .live{animation:none}html{scroll-behavior:auto}}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+section>.wrap>h2{font-size:1.8rem;margin-bottom:1.5rem}
+.about{max-width:42rem}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem}
+.skills h3,.proj h3,.job h3{font-size:1.15rem;margin-bottom:.4rem}
+.skills ul{margin:0;padding-left:1.1rem;color:var(--muted)}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:1.25rem}
+.proj{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:.4rem;padding:1.25rem}
+.proj p{margin:.3rem 0 .8rem;color:var(--muted)}
+.proj .tags{font-size:.9rem;color:var(--ink);margin-bottom:.8rem}
+.proj a{font-weight:500}
+.job{display:grid;grid-template-columns:11rem 1fr;gap:.5rem 1.5rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:0}
+.job .when{color:var(--muted);font-size:.95rem}
+.job p{margin:.2rem 0 0;color:var(--muted)}
+.contact a{display:block;font-size:1.15rem;margin:.3rem 0}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+@media (max-width:42rem){.hero{grid-template-columns:1fr;padding-top:1.5rem}.job{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+</nav>
 
+<header class="hero">
+<div>
+<h1>Mark Precious Agyoseh</h1>
+<p class="lead">Computer Science graduate focused on networking, cybersecurity and IT administration. I build and document lab networks, and I'm based in Abuja, Nigeria.</p>
+<div class="btns">
+<a class="btn primary" href="#projects">See my projects</a>
+<a class="btn ghost" href="#contact">Get in touch</a>
+</div>
+</div>
+<svg class="topo" viewBox="0 0 400 300" role="img" aria-label="Diagram of a headquarters router linked to a branch router, each with a switch and PCs">
+<path class="link" d="M95 150H305"/>
+<path class="live" d="M95 150H305"/>
+<path class="link" d="M60 190V245M60 190H20V245M60 190H100V245"/>
+<path class="link" d="M340 190V245M340 190H300V245M340 190H380V245"/>
+<path class="link" d="M60 150V110M340 150V110"/>
+<circle class="node" cx="60" cy="150" r="22"/>
+<circle class="node" cx="340" cy="150" r="22"/>
+<rect class="node" x="38" y="85" width="44" height="26" rx="4"/>
+<rect class="node" x="318" y="85" width="44" height="26" rx="4"/>
+<rect class="node" x="2" y="245" width="36" height="26" rx="4"/>
+<rect class="node" x="82" y="245" width="36" height="26" rx="4"/>
+<rect class="node" x="282" y="245" width="36" height="26" rx="4"/>
+<rect class="node" x="362" y="245" width="36" height="26" rx="4"/>
+<text x="60" y="76" text-anchor="middle">HQ</text>
+<text x="340" y="76" text-anchor="middle">Branch</text>
+<text x="200" y="138" text-anchor="middle">WAN link</text>
+</svg>
+</header>
+</div>
+
+<main>
+<section id="about"><div class="wrap">
+<h2>About</h2>
+<div class="about">
+<p>I graduated in Computer Science from Federal University Wukari in 2025 and am currently serving my NYSC year. My interests are networking, cybersecurity and IT administration, and I learn by building: Cisco Packet Tracer networks, a Windows Server Active Directory home lab, and security lab exercises.</p>
+<p>Before and during university I worked as a computer technician and then a computer instructor, so I'm comfortable both fixing systems and explaining how they work. I'm looking for roles in IT support, network administration and related fields.</p>
+</div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Networking</h3><ul><li>Cisco Packet Tracer</li><li>Multi-site network design (HQ and branch)</li><li>CCNA-level concepts</li></ul></div>
+<div><h3>IT administration</h3><ul><li>Windows Server and Active Directory</li><li>Help desk and troubleshooting</li><li>Hardware and software support</li></ul></div>
+<div><h3>Cybersecurity</h3><ul><li>Hands-on lab work</li><li>Security tooling practice</li></ul></div>
+<div><h3>Documentation and teaching</h3><ul><li>Technical write-ups</li><li>Curriculum and class notes</li><li>Computer instruction</li></ul></div>
+</div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<div class="projects">
+<article class="proj">
+<h3>HQ and Branch network</h3>
+<p>A multi-site Cisco Packet Tracer network connecting a headquarters and a branch office.</p>
+<div class="tags">Packet Tracer, routing, switching</div>
+<!-- Replace the link below with your GitHub repository -->
+<a href="https://github.com/YOUR-USERNAME/networking-labs">View on GitHub</a>
+</article>
+<article class="proj">
+<h3>Active Directory home lab</h3>
+<p>A Windows Server Active Directory lab built to practise help desk and system administration tasks.</p>
+<div class="tags">Windows Server, Active Directory</div>
+<a href="https://github.com/YOUR-USERNAME/active-directory-homelab">View on GitHub</a>
+</article>
+<article class="proj">
+<h3>Cybersecurity lab work</h3>
+<p>Practical exercises with security tools and networking concepts, documented as I learn.</p>
+<div class="tags">Security tooling, networking</div>
+<a href="https://github.com/YOUR-USERNAME/cybersecurity-labs">View on GitHub</a>
+</article>
+<article class="proj">
+<h3>Digital Technologies class notes</h3>
+<p>Curriculum-aligned notes for Nigerian Junior Secondary School Digital Technologies.</p>
+<div class="tags">Education content, curriculum</div>
+<a href="#contact">Ask for a sample</a>
+</article>
+</div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience and education</h2>
+<div class="job"><div class="when">Jan 2025 to Jan 2026</div><div><h3>Computer Instructor, Computer Village, Wukari</h3></div></div>
+<div class="job"><div class="when">Oct 2023 to Apr 2024</div><div><h3>Intern, African Center for ICT Innovation and Training (ACIT)</h3><p>American University of Nigeria, Yola.</p></div></div>
+<div class="job"><div class="when">Sept 2019 to June 2024</div><div><h3>Computer Technician, Computer Village, Wukari</h3></div></div>
+<div class="job"><div class="when">2021 to 2025</div><div><h3>B.Sc. Computer Science, Federal University Wukari</h3></div></div>
+<div class="job"><div class="when">Ongoing</div><div><h3>National Youth Service Corps (NYSC)</h3></div></div>
+</div></section>
+
+<section id="contact"><div class="wrap contact">
+<h2>Contact</h2>
+<p>Open to IT support, network administration and related roles.</p>
+<a href="mailto:preciousagyosehmark@gmail.com">preciousagyosehmark@gmail.com</a>
+<a href="tel:+2347045271780">07045271780</a>
+<!-- Add your LinkedIn and GitHub links here -->
+<a href="https://github.com/YOUR-USERNAME">GitHub</a>
+<a href="https://www.linkedin.com/in/YOUR-PROFILE">LinkedIn</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">&copy; 2026 Mark Precious Agyoseh. Based in Abuja, Nigeria.</div></footer>
+</body>
+</html>
